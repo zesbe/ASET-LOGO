@@ -1,21 +1,27 @@
-.cls-2 {
-    fill: #282828;
-    font-family: YouTubeSans-Bold, YouTube Sans;
-    font-size: 80px;
-    font-weight: 700;
-  }
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <title>Logo Figur Teman</title>
+  <desc>Tiga figur abstrak berdiri bersama melambangkan persahabatan dan komunitas.</desc>
+  
+  <defs>
+    <style>
+      .friend1 { fill: #4285F4; } /* Biru */
+      .friend2 { fill: #34A853; } /* Hijau */
+      .friend3 { fill: #FBBC05; } /* Kuning */
+    </style>
+  </defs>
 
-  .cls-3 {
-    fill: #ff0000;
-  }
-</style>
-<font id="YouTubeSans-Bold" horiz-adv-x="1000" >
-  <font-face font-family="YouTube Sans" font-weight="700" font-stretch="normal" units-per-em="1000" ascent="800" descent="-200" />
-  <missing-glyph horiz-adv-x="500" />
-  <glyph glyph-name="Y" unicode="Y" d="M364 615h-90v-180h-68v180h-90v-415h90v180h68v-180h90z"/>
-  <glyph glyph-name="o" unicode="o" d="M500 500q0 104-73 177T250 750q-104 0-177-73T0 500q0-104 73-177T250 250q104 0 177 73T500 500zM430 500q0-69-49-118T250 332q-69 0-118 49T82 500q0 69 49 118T250 668q69 0 118-49T430 500z"/>
-  <glyph glyph-name="u" unicode="u" d="M345 615h-90v-365H80v-50h330v50h-90z"/>
-  <glyph glyph-name="t" unicode="t" d="M215 615h-65v-465H35v-50h255v50h-65z"/>
-  <glyph glyph-name="b" unicode="b" d="M272 615h-182v-415h182v150h-113v-150h-69v415h182v-150h113v150z"/>
-  <glyph glyph-name="e" unicode="e" d="M345 615h-265v-150h182v-65h-182v-150h265v365h-80z"/>
-</font>
+  <g transform="translate(0, -5)">
+    <circle cx="100" cy="45" r="18" class="friend2"/>
+    <path d="M75,115 C75,80 125,80 125,115 Z" class="friend2"/>
+  </g>
+  
+  <g>
+    <circle cx="55" cy="50" r="16" class="friend1"/>
+    <path d="M35,115 C35,85 75,85 75,115 Z" class="friend1"/>
+  </g>
+  
+  <g>
+    <circle cx="145" cy="50" r="16" class="friend3"/>
+    <path d="M125,115 C125,85 165,85 165,115 Z" class="friend3"/>
+  </g>
+</svg>
